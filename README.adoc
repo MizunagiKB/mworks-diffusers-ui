@@ -1,0 +1,19 @@
+= MWorks Diffusers UserInterface
+:lang: ja
+:doctype: book
+:author: MizunagiKB
+:toc: left
+:toclevels: 3
+:icons: font
+:experimental:
+:stem:
+
+== Install
+
+[source,bash]
+----
+$ conda create -n pyenv39_diffusers python=3.9
+$ conda activate pyenv39_diffusers
+$ pip install -r requirements.txt
+$ python user_interface/main.py
+----
