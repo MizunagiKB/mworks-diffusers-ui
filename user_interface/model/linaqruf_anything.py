@@ -46,8 +46,6 @@ def inference_txt2img(
 
     generator = torch.Generator().manual_seed(int(param.seed))
 
-    print(param.json())
-
     return pipe(
         param.prompt,
         height=param.image_h,
